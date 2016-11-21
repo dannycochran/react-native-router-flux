@@ -41,9 +41,9 @@ declare namespace RNRF {
      */
     duration?: number,
     /**
-     * direction of animation horizontal/vertical
+     * direction of animation horizontal/vertical/leftToRight
      */
-    direction?: 'vertical' | 'horizontal',
+    direction?: 'vertical' | 'horizontal' | 'leftToRight',
     /**
      * optional if provided overrides the default spring animation
      */
